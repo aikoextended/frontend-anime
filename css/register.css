@@ -1,0 +1,79 @@
+/* File: register.css */
+
+/* Import font Poppins dari Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Gunakan font Poppins */
+    background-color: #f9d6ac; /* Warna background oranye lembut */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 20px;
+    font-weight: 600; /* Tebal teks */
+}
+
+#register-form {
+    background-color: #ffe6cc; /* Warna latar form */
+    padding: 20px;
+    border-radius: 10px; /* Sudut melengkung */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Bayangan */
+    width: 300px;
+    text-align: center;
+}
+
+#register-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600; /* Gunakan font yang lebih tebal */
+    text-align: left;
+    color: black;
+}
+
+#register-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ffae66; /* Warna border */
+    border-radius: 5px; /* Sudut melengkung */
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Gunakan font Poppins */
+}
+
+#register-form button {
+    background-color: #ffa366; /* Warna tombol oranye */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Sudut melengkung tombol */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 600; /* Gunakan font tebal */
+    font-family: 'Poppins', sans-serif; /* Gunakan font Poppins */
+}
+
+#register-form button:hover {
+    background-color: #ff8c33; /* Warna tombol saat hover */
+}
+
+#register-form input:focus {
+    outline: none;
+    border: 1px solid #ff8c33; /* Warna border saat fokus */
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: 14px;
+    color: #666; /* Warna abu-abu */
+    font-family: 'Poppins', sans-serif; /* Gunakan font Poppins */
+}
